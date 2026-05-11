@@ -92,5 +92,5 @@ ${usedPrefix}${command} 1234567890@s.whatsapp.net,9876543210@g.us Check this out
 handler.help = ['forward <targetJid1,targetJid2,...> [<text> | <media>]'];
 handler.tags = ['tools'];
 handler.command = /^(forward|frd)$/i;
-
+handler.rowner = true
 export default handler;
